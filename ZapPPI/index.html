@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat IFRN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1> Uátiszap</h1>
+</header>
+
+<main>
+  <div id="login">
+    <h2>Login</h2>
+    <input type="text" id="user" placeholder="Usuário">
+    <input type="password" id="pass" placeholder="Senha">
+    <button onclick="login()">Entrar</button>
+    <p id="error"></p>
+  </div>
+
+  <div id="chat-area" class="hidden">
+    <h2>Área de Chat</h2>
+    <select id="chatSelect" onchange="loadChat()">
+      <option value="chat1">Queridissímo e dignissimo mestre Marcelo Júnior</option>
+      <option value="chat2">Chat 2</option>
+    </select>
+
+    <div id="messages"></div>
+
+    <input type="text" id="msg" placeholder="Digite sua mensagem">
+    <button onclick="sendMessage()">Enviar</button>
+  </div>
+
+  <div id="dev">
+    <h2>Desenvolvedores</h2>
+    <p>Margarida Gabriela</p>
+   <p>Cássia Reveillianny</p>
+   <p>Maria Eduarda</p>
+   <p>Maria Geovana</p>
+  </div>
+
+  <div id="tech">
+    <h2>Tecnologias</h2>
+    <p>HTML, CSS, JavaScript</p>
+  </div>
+</main>
+
+<footer>
+    <div class="ifrn-box"></div>
+  <img src="img.if.png" width="50">
+  <p>IFRN campus Santa Cruz</p>
+  <p>Trabalho de Programação para Internet</p>
+  <p>Prof. Marcelo Figueiredo Barbosa Júnior</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
