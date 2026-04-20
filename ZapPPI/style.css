@@ -1,4 +1,15 @@
 body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+/* HEADER CENTRALIZADO */
+header {
+  text-align: center;
+  background: #004080;
+  color: white;
+  padding: 20px;
 }
 
 main {
@@ -43,4 +54,12 @@ button:hover {
   margin: 10px 0;
   padding: 10px;
   background: #fafafa;
+}
+
+/* EXTRA: centralizar textos do rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #eee;
+  margin-top: 20px;
 }
