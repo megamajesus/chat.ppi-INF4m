@@ -1,0 +1,46 @@
+body {
+}
+
+main {
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#login, #chat-area {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #004080;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0066cc;
+}
+
+#messages {
+  border: 1px solid #ccc;
+  height: 200px;
+  overflow-y: auto;
+  margin: 10px 0;
+  padding: 10px;
+  background: #fafafa;
+}
