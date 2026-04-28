@@ -1,14 +1,15 @@
 const users = [
   {user: "admin", pass: "123"},
-  {user: "user1", pass: "123"},
-  {user: "user2", pass: "123"},
-  {user: "user3", pass: "123"},
+  {user: "Meg", pass: "20231114010028"},
+  {user: "Geovana", pass: "20231114010044"},
+  {user: "Duda", pass: "20231114010034"},
+  {user: "Cássia", pass: "20231114010050"},
   {user: "mimmarcelo", pass: "Teste123"}
 ];
 
 let chats = {
-  chat1: ["Bem-vindo ao chat 1!"],
-  chat2: ["Este é o chat 2."]
+  chat1: ["Bom dia! Irei avaliar o chat de vocês."],
+  chat2: ["Bom dia. Com Jesus !"]
 };
 
 function login() {
